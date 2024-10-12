@@ -205,3 +205,10 @@ tableRow6.appendChild(tableHeadingR6_1);
 tableRow6.appendChild(tableHeadingR6_2);
 tableRow6.appendChild(tableHeadingR6_3);
 tableRow6.appendChild(tableHeadingR6_4);
+var mainBody = document.getElementsByTagName("body")
+
+
+function mytoggle() {
+  var theme = document.body;
+  theme.classList.toggle("dark-mode");
+}
