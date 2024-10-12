@@ -211,4 +211,11 @@ var mainBody = document.getElementsByTagName("body")
 function mytoggle() {
   var theme = document.body;
   theme.classList.toggle("dark-mode");
+
+  var bw = document.getElementById("button");
+  if (bw.innerHTML === "Switch to black") {
+    bw.innerHTML = "Switch to white";
+  } else {
+    bw.innerHTML = "Switch to black";
+  }
 }

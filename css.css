@@ -27,6 +27,9 @@ body {
 .button
 {
   align-self: center;
+  background-color: rgb(255, 156, 156);
+  padding: 15px 15px 15px 15px;
+  color: black;
 }
 
 /* Marksheet heading  */
